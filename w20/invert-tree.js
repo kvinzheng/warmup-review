@@ -8,6 +8,7 @@ function invertTree(tree) {
       invertTree(tree.right);
     }
   }
+  return tree;
 }
 
 module.exports = invertTree;
